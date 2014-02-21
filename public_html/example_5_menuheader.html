@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>        
+        <title>HTML5 - Test 3</title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css"/>
+        <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <div data-role="page" id="index">
+            <div data-role="header" data-position="fixed">
+                <h1><img src="img/logo_example.jpg"></h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#index" data-icon="home" class="ui-btn-active ui-state-persist">Home</a>
+                        <li><a href="#contacts" data-icon="search">Contacts</a>
+                        <li><a href="#events" data-icon="info">Events</a>
+                        <li><a href="#news" data-icon="grid">News</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="contacts">
+            <div data-role="header" data-position="fixed">
+                <h1><img src="img/logo_example.jpg"></h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#index" data-icon="home">Home</a>
+                        <li><a href="#contacts" data-icon="search" class="ui-btn-active ui-state-persist">Contacts</a>
+                        <li><a href="#events" data-icon="info">Events</a>
+                        <li><a href="#news" data-icon="grid">News</a>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview">
+                    <li>Bob Brown
+                    <li>Barney Carlow
+                    <li>Edison Danny
+                    <li>Jenny Faraday
+                    <li>Liam Fredrik
+                    <li>Marvin Hoffland
+                    <li>Thomas Irvine
+                    <li>Cleo Morrison
+                    <li>Frank Normandy
+                    <li>Abe Yelster
+                    <li>Bob Zimmerman
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="events">
+            <div data-role="header" data-position="fixed">
+                <h1><img src="img/logo_example.jpg"></h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#index" data-icon="home">Home</a>
+                        <li><a href="#contacts" data-icon="search">Contacts</a>
+                        <li><a href="#events" data-icon="info" class="ui-btn-active ui-state-persist">Events</a>
+                        <li><a href="#news" data-icon="grid">News</a>
+                    </ul>
+                </div>
+                <div data-role="content">
+                    <section class="ui-grid-a">
+                        <div class="ui-block-a">Date</div>
+                        <div class="ui-block-b">Event</div>
+                    </section>
+                    <section class="ui-grid-b">
+                        <!-- Row 1 -->
+                        <div class="ui-block-a">2-feb-14</div>
+                        <div class="ui-block-b">jQuery Mobile first lesson</div>
+                        <!-- Row 2 -->
+                        <div class="ui-block-a">7-feb-14</div>
+                        <div class="ui-block-b">Test after first lesson of jQuery Mobile</div>
+                    </section>
+                </div>
+            </div>            
+        </div>
+
+    </body>
+</html>
